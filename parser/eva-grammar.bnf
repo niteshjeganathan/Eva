@@ -30,4 +30,3 @@ ListEntries
     : ListEntries Exp { $1.push($2); $$ = $1 }
     | /* empty */ { $$ = [] }
     ;
-
